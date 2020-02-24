@@ -1,0 +1,35 @@
+{
+  "name": "beetrackautomationtest",
+  "version": "1.0.0",
+  "description": "Beetrack Automation test framework - using Codecept.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/anhlando/beetrack_test.git"
+  },
+  "keywords": [
+    "beetrack"
+  ],
+  "author": "anhlando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/anhlando/beetrack_test/issues"
+  },
+  "homepage": "https://gitlab.com/anhlando/beetrack_test#readme",
+  "devDependencies": {
+    "allure": "0.0.0",
+    "allure-commandline": "^2.13.0",
+    "codeceptjs": "^2.2.0",
+    "faker": "^4.1.0",
+    "moment": "^2.24.0",
+    "properties-reader": "^0.3.1",
+    "request": "^2.88.0",
+    "webdriverio": "^5.11.6"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
